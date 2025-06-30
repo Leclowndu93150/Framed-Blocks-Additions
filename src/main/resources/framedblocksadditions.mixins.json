@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.leclowndu93150.framedblocksadditions.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "framedblocksadditions.refmap.json",
+  "mixins": [
+    "BlockTypeMixin",
+    "FramedMiniCubeBlockMixin",
+    "FramedMiniCubeModelMixin",
+    "shenanigans.BoatFramedFluidMixin",
+    "shenanigans.EntityFluidDetectionMixin",
+    "shenanigans.FramedFluidCollisionMixin",
+    "shenanigans.PlayerFramedFluidMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
